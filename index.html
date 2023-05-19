@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-
-    <meta> charset="UTF-8"</meta>
-    <title>Working Google Search Engine Website Design </title>
-    <link rel="stylesheet" href="style_khadiija.css">
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google</title>
+	<link rel="icon"  href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style_khadiija.css">
 </head>
-<section>
-    <div class="main">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png">
-        <div class="searchBx">
-            <input type="text" name="" class="query" value="""">
-            <input type="text" name="" class="query">
-            <div class="icon">
-                <div><img src="search.png" ></div>
-                <div><img src="mic.png" ></div>
-            </div>
-        </div>
-        <div>
-            <div class="button">
-                <button class="searchBtn">Google Search</button>
-        </div>
+<body>
+      <nav>
+      	<a href="#">Gmail</a>
+      	<a href="#">Images</a>
+      	<img src="img/g-menu.PNG">
+      	<button>Sign in</button>
+      </nav>
+      <section class="section-1">
+      	<img src="img/logo.png" class="logo">
+      	<form><br><br>
+      		<div class="s-box">
+      			<img src="img/search.svg" class="search-icon">
+      			<input type="text" class="s-input">
+      			<img src="img/vs.png" class="vs-icon">
+      			<input type="submit" class="s-btn" value="Google Search">
+      			<input type="submit" class="s-btn" value="I'm Feeling Lucky">
+      		</div>
+      	</form>
+      	<div class="lang">
+      		Google offered in:
+      		<a href="#">Nederlands</a>
+      		<a href="#">Frysk</a>
+      	</div>
+      </section>
+      <footer>
+      	<h4>Nederlands</h4>
+      	<div class="links">
+      		<div class="link-1">
+      			<a href="#">Advertising</a>
+      			<a href="#">Business</a>
+      			<a href="#">About</a>
+      			<a href="#">How Search works</a>
+      		</div>
+      		<div class="link-2">
+      			<a href="#">Privacy</a>
+      			<a href="#">Terms</a>
+      			<a href="#">Settings</a>
+      		</div>
+      	</div>
+      </footer>
 
-    </div>
-</section>
-<script>
-    let query = document.querySelector('.query');
-    let searchBtn = document.querySelector('.searchBtn');
-    searchBtn.onclick = function(){
-        let url = ''+query.value  /*link upload */
-        window.open(url,'_self');
-    }
-</script>
 </body>
 </html>

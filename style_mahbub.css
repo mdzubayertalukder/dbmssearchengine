@@ -118,7 +118,7 @@ form.button input{
 form .button input:hover{
     background: linear-gradient(-135deg,#71b7e6,#9b59b6)
 }
-@@media (max-width: 584px){
+@media (max-width: 584px){
     .containera{
         max-width: 100%;
     }
@@ -133,5 +133,7 @@ form .button input:hover{
         max-height: 300px;
         overflow-y: scroll;
     }
-    .user-details::
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
 }
