@@ -124,6 +124,6 @@ form .button input:hover{
     }
     form .user-details .input-box{
         margin-bottom: 15px;
-        width
+        width: calc(100% / );
     }
 }
