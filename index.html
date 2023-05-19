@@ -27,7 +27,8 @@
     let query = document.querySelector('.query');
     let searchBtn = document.querySelector('.searchBtn');
     searchBtn.onclick = function(){
-        let url = ''+query  /*link upload */
+        let url = ''+query.value  /*link upload */
+        window.open(url,'_self');
     }
 </script>
 </body>
